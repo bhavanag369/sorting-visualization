@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!-- saved from url=(0071)file:///C:/Users/Bhavana%20Giduturi/OneDrive/Desktop/sorting/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+
+    <link rel="stylesheet" href="./Sorting Visualizer_files/style.css">
+
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="array-inputs">
+                <p>Size of the array:</p>
+                <input id="a_size" type="range" min="20" max="150" step="1" value="80">
+                <p>Speed of the algorithm:</p>
+                <input id="a_speed" type="range" min="1" max="5" step="1" value="4">
+                <button id="a_generate">Generate New Array!</button>
+            </div>
+
+            <div class="header_right">
+                <p class="nav-heading">Sorting visualizer</p>
+
+                <div class="algos">
+                    <button class="butt_unselected">Bubble</button>
+                    <button class="butt_unselected">Selection</button>
+                    <button class="butt_unselected">Insertion</button>
+                    <button class="butt_unselected">Merge</button>
+                    <button class="butt_unselected">Quick</button>
+                    <button style="margin-right: 0px;" class="butt_unselected">Heap</button>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <section>
+
+        <div id="Info_Cont1">
+            <p>This is First Container</p>
+        </div>
+
+        <div id="array_container" style="flex-direction: row;"><div style="margin: 0% 0.1%; width: 1.05%; height: 12%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 12%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 13%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 15%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 15%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 16%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 16%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 18%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 18%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 19%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 19%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 20%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 22%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 22%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 22%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 22%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 22%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 24%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 24%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 25%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 25%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 27%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 27%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 27%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 27%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 28%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 29%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 30%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 30%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 32%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 33%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 33%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 33%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 34%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 35%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 36%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 37%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 37%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 38%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 39%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 40%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 41%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 42%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 42%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 44%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 45%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 46%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 47%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 47%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 48%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 49%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 51%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 52%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 53%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 53%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 53%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 54%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 55%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 56%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 57%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 57%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 57%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 60%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 62%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 63%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 63%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 63%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 64%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 64%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 65%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 66%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 67%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 67%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 68%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 68%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 70%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 72%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 72%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 72%; background-color: green;"></div><div style="margin: 0% 0.1%; width: 1.05%; height: 74%; background-color: green;"></div></div>
+
+        <div id="Info_Cont2">
+            <p>This is Second Container</p>
+        </div>
+
+    </section>
+
+    <footer>
+
+    </footer>
+
+    <script src="./Sorting Visualizer_files/main.js.download"></script>   <!--This should be at the end of body and should be loaded before sorts.js-->
+    <script src="./Sorting Visualizer_files/visualizations.js.download"></script>  <!--This should be loaded after main.js-->
+
+    <script src="./Sorting Visualizer_files/bubble_sort.js.download"></script>
+    <script src="./Sorting Visualizer_files/selection_sort.js.download"></script>
+    <script src="./Sorting Visualizer_files/insertion_sort.js.download"></script>
+    <script src="./Sorting Visualizer_files/merge_sort.js.download"></script>
+    <script src="./Sorting Visualizer_files/quick_sort.js.download"></script>
+    <script src="./Sorting Visualizer_files/heap_sort.js.download"></script>
+
+
+</body></html>
